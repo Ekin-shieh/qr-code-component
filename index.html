@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | QR code component</title>
   <style>
     body {
@@ -22,12 +23,34 @@
       border-radius: 15px;
       box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
       background-color: white;
+      font-family: sans-serif;
+      text-align: center;
+      font-family: 'Outfit', sans-serif;
+    }
+    .qr {
+      width: calc(100% - 30px);
+      border-radius: 10px;
+      margin: 15px;
+    }
+    .container h{
+      display: flex;
+      padding: 0 30px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .container p{
+      display: flex;
+      padding: 0 30px;
+      font-size: 15px;
+      color: darkgrey;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    card area
+    <img src="./images/image-qr-code.png" alt="QR Code" class="qr">
+    <h>Improve your front-end skills by building projects</h>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
 </body>
 </html>
