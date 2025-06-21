@@ -90,4 +90,5 @@ how to render a web page:
 
 ## Author
 
-- Frontend Mentor - [@Ekin-shieh](https://www.frontendmentor.io/profile/ekin-shieh)
+- Frontend Mentor - [@Ekin-shieh](https://www.frontendmentor.io/profile/Ekin-shieh)
+- GitHub - [@Ekin-shieh](https://github.com/Ekin-shieh)
